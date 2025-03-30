@@ -19,7 +19,7 @@ Welcome to **Master-DSA-Cpp-with-Nouman**, a structured repository to help you l
 
 🛠️ How to Use This Repo:
 1️⃣ Clone the repo:
-clone https://github.com/YourGitHubUsername/Master-DSA-Cpp-with-Nouman.git
+clone https://github.com/NoumanAhmed01/DSA-Mastery-Cpp-Nouman
 
 2️⃣ Navigate to the desired topic folder.  
 3️⃣ Read the notes 📖 and run the code examples 💻.  
