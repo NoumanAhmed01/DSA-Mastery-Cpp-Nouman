@@ -15,13 +15,6 @@ cout << "\* ";
  }
 cout << endl;  
 }
-📌 Output:
-
----
-
----
-
----
 
 Here, the outer loop controls the number of rows, and the inner loop controls the number of columns.
 
@@ -34,16 +27,6 @@ cout << "\* ";
 }
 cout << endl;
 }
-📌 Output:
-
--
-- -
-
----
-
----
-
----
 
 🔹 Inverted Half Pyramid
 
@@ -53,15 +36,7 @@ cout << "\* ";
 }
 cout << endl;
 }
-📌 Output:
 
----
-
----
-
----
-
-- -
 - 🔹 Full Pyramid
 
 for (int i = 1; i <= 5; i++) {
@@ -69,17 +44,6 @@ for (int j = 1; j <= 5 - i; j++) cout << " "; // Spaces
 for (int k = 1; k <= 2 _ i - 1; k++) cout << "_"; // Stars
 cout << endl;
 }
-📌 Output:
-
-    *
-
----
-
----
-
----
-
----
 
 🔹 Diamond Pattern
 
@@ -94,25 +58,6 @@ for (int j = n; j > i; j--) cout << " ";
 for (int j = 1; j <= (2 _ i - 1); j++) cout << "_";
 cout << endl;
 }
-📌 Output:
-
-    *
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
-    *
 
 🔹 Butterfly Pattern
 
@@ -129,24 +74,8 @@ for (int j = 1; j <= 2 _ (n - i); j++) cout << " ";
 for (int j = 1; j <= i; j++) cout << "_";
 cout << endl;
 }
-📌 Output:
 
--      *
-
----
-
----
-
----
-
----
-
----
-
----
-
--      *
-  🔹 Palindromic Number Pyramid
+🔹 Palindromic Number Pyramid
 
 for (int i = 1; i <= 5; i++) {
 for (int j = 5; j > i; j--) cout << " ";
@@ -154,11 +83,3 @@ for (int j = i; j >= 1; j--) cout << j;
 for (int j = 2; j <= i; j++) cout << j;
 cout << endl;
 }
-📌 Output:
-
-    1
-
-212  
- 32123  
- 4321234  
-543212345
