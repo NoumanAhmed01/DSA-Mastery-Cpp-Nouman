@@ -13,6 +13,7 @@ Includes powerful in-built functions like push_back(), pop_back(), size(), capac
 vector<int> v;
 v.push_back(1); // Adds element at end
 v.pop_back(); // Removes last element
+
 🔁 When capacity is exceeded, vector creates a new memory block (double the size) and copies the old data — that's why it's dynamic!
 
 💡 Vectors vs Arrays
